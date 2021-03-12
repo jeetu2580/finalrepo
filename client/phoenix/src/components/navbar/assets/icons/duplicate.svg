@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/duplicate</title>
+    <g id="icons/duplicate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#57B8B8" x="0" y="0" width="30" height="30"></rect>
+        <rect id="Rectangle" stroke="#FFFFFF" fill="#57B8B8" x="8.5" y="7.5" width="10" height="12"></rect>
+        <rect id="Rectangle" stroke="#FFFFFF" fill="#57B8B8" x="11.5" y="10.5" width="10" height="12"></rect>
+    </g>
+</svg>

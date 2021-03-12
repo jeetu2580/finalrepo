@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/rewind</title>
+    <g id="icons/rewind" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rewind" fill="#57B8B8">
+            <polygon id="Rectangle" points="17.5 0 17.5 24.5 0 12.6"></polygon>
+            <rect id="Rectangle" x="20.3" y="0" width="4.2" height="24.5"></rect>
+        </g>
+    </g>
+</svg>

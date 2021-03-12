@@ -1,0 +1,317 @@
+.createEmail
+{
+    background: #ffffff !important;
+    margin-left: 30px;
+    
+}
+
+.CreateEmailnew
+{
+  background: #ffffff;
+}
+
+.createCampMain {
+  margin-top: 15px;
+}
+.steps {
+    height: 24px;
+    width: 1034px;
+  }
+  .progresssteps {
+    height: 24px;
+   
+    color: #1A70B2;
+  font-family: Nunito;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  }
+  .buttonNext{
+margin-top: 40px;
+
+  }
+
+ .buttonNext button{
+margin: 10px !important;
+ } 
+  .step1{
+    margin-top: 40px; 
+    height: 27px;
+  
+  color: #373737;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px; 
+  }
+.text{
+
+    height: 20px;
+  width: 853px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px; 
+}
+
+
+.colorchanger {
+  background: #efefef !important;
+}
+
+
+.rs-steps-item-title{
+  color: #1A70B2;
+}
+
+.ContainerEmailCreate
+{
+  border-top: 1px solid #d9d9d9;
+}
+
+.EmailType
+{
+  border: none;
+  border-bottom: 1px solid #575757;
+  padding: 2px;
+  width: 100%;
+  outline:0px;
+}
+
+.descriptionBox
+{
+  border: 1px solid #575757;
+  outline:0px;
+}
+
+.rs-row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+   
+}
+
+
+.SideNavPanel .rs-panel-heading{
+  border-bottom: 1px solid #d9d9d9;
+ 
+  background: #efefef;
+
+  
+}
+.SideNavPanel .rs-panel{
+border-radius: 0px;
+
+  
+}
+
+.NoBorder .rs-panel-heading{
+
+  border-bottom: 0px solid #d9d9d9;
+  font-weight: 100;
+}
+
+.boldText{
+  font-weight: 600;
+}
+.smallfontSize{
+  font-size: 12px;
+}
+
+.rs-sidebar{
+
+  flex: 0 0 23% !important; 
+  width: 23% !important;
+}
+
+
+
+/* Start Image template CSS */
+
+input[type="radio"][id^="myCheckbox"] {
+  display: none;
+}
+
+.TemplateList label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.TemplateList label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: 30px;
+  left: 260px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+  z-index: 1;
+}
+
+.TemplateList label img {
+  
+  width: 250px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  /* box-shadow: 0 0 5px #333; */
+  z-index: -1;
+}
+
+.EmailCmail{
+  width:90%;
+  border: 2px solid grey;
+  margin-Left: 7%;
+  padding-left: 20px;
+  line-height: 50px;
+}
+.DesignEdit{
+ 
+  text-align: center;
+  border: 1px solid grey;
+  padding:50px;
+  cursor: pointer;
+  
+}
+
+element.style {
+  margin-left: 7%;
+}
+/* End Image template CSS */
+.EmailCmail
+{
+  padding: 20px;
+}
+
+
+
+
+
+/* Start Image template CSS */
+
+input[type="radio"][id^="myCheckbox"] {
+  display: none;
+}
+
+.TemplateList1 label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.TemplateList1 label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: 10px;
+  left: 240px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+  z-index: 1;
+}
+
+.TemplateList1 label img {
+  
+ margin: 15px;
+ width: 90px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  /* box-shadow: 0 0 5px #333; */
+  z-index: -1;
+}
+
+
+.ghostButton
+{
+  width: 150px !important;
+ 
+visibility: hidden;
+}
+
+
+/* ////////////// */
+/* .loading {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.loading div {
+  position: absolute;
+  background: #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: loading 1.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.loading div:nth-child(2) {
+  animation-delay: -.7s;
+}
+@keyframes loading {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+} */
+
+/*  */

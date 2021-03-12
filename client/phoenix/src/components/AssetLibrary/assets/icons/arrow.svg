@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/arrow</title>
+    <g id="icons/arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="0.289473684" y1="0.289473684" x2="5.5" y2="5.5" id="Line" stroke="#FFFFFF" stroke-width="2"></line>
+        <line x1="5.5" y1="0.289473684" x2="10.7105263" y2="5.5" id="Line" stroke="#FFFFFF" stroke-width="2" transform="translate(8.105263, 2.894737) scale(-1, 1) translate(-8.105263, -2.894737) "></line>
+    </g>
+</svg>

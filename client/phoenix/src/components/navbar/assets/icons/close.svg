@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/close</title>
+    <g id="icons/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0-icons/close">
+            <rect id="Rectangle" fill="#57B8B8" x="0" y="0" width="25" height="25" rx="5"></rect>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="17.7599636 6 12.5 11.2599636 7.24003642 6 6 7.24003642 11.2599636 12.5 6 17.7599636 7.24003642 19 12.5 13.7400364 17.7599636 19 19 17.7599636 13.7400364 12.5 19 7.24003642"></polygon>
+        </g>
+    </g>
+</svg>
