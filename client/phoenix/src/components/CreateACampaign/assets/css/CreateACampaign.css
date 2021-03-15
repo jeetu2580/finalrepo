@@ -1,0 +1,45 @@
+.welcomeMessage
+{
+    padding: 0px 50px 0px 50px;
+    background: #fff;
+}
+.headernavafterlogin {
+    padding-bottom : 20px !important;
+}
+
+.campaign-your-brand {
+    height: 30px;
+    width: 531px;
+    color: #373737;
+    font-family: Nunito;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+
+  .headline {
+    height: 36px;
+    width: 650px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .navicon{
+    background-color: #ffffff;
+    margin-left: 25px;
+    /* border: 1px solid #979797; */
+    border-radius: 4px 4px 0px 0px;
+    font-size: 15px;
+    font-family: Nunito;
+    color: #373737 !important;
+    width: 125px;
+    text-align: center;
+  }
+  
+  .rs-nav-item-active
+  {
+    border-bottom: none !important;
+  }
+
+  .rs-nav-horizontal {
+    border-bottom: none !important;
+  }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/trash</title>
+    <g id="icons/trash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#57B8B8" x="0" y="0" width="30" height="30"></rect>
+        <g id="0-icons/trash-can" transform="translate(8.000000, 7.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="1.33333333">
+            <g id="Path">
+                <path d="M12.6666667,5.33333333 L12.0886667,13.428 C12.038991,14.1258918 11.4583242,14.6666667 10.7586667,14.6666667 L3.908,14.6666667 C3.2083425,14.6666667 2.62767568,14.1258918 2.578,13.428 L2,5.33333333"></path>
+                <line x1="0" y1="2.66666667" x2="14.6666667" y2="2.66666667"></line>
+                <path d="M4.66666667,2.66666667 L4.66666667,0.666666667 C4.66666667,0.298476833 4.9651435,0 5.33333333,0 L9.33333333,0 C9.70152317,0 10,0.298476833 10,0.666666667 L10,2.66666667"></path>
+            </g>
+        </g>
+    </g>
+</svg>

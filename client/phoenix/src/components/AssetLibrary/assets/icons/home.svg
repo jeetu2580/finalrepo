@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button/home</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="button/home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#57B8B8" x="0" y="0" width="32" height="30" rx="5"></rect>
+        <g id="icons/home-dark" transform="translate(7.000000, 7.000000)" filter="url(#filter-1)">
+            <g id="0-icons/home-dark">
+                <path d="M9.5,3.75895656 L2.62068966,8.93161089 L2.62068966,16.2203511 C2.62068966,16.6099117 2.97607106,16.925713 3.41445623,16.925713 L7.38328912,16.925713 L7.38328912,12.6935413 L11.6167109,12.6935413 L11.6167109,16.925713 L15.5855438,16.925713 C16.0239289,16.925713 16.3793103,16.6099117 16.3793103,16.2203511 L16.3793103,8.93161089 L9.5,3.75895656 Z" id="Path" fill="#525252"></path>
+                <line x1="9.5" y1="0.297385804" x2="18.6724138" y2="7.4346451" id="Line-5" stroke="#525252" stroke-width="1.65217391" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="0.327586207" y1="0.297385804" x2="9.5" y2="7.4346451" id="Line-5" stroke="#525252" stroke-width="1.65217391" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.913793, 3.866015) scale(-1, 1) translate(-4.913793, -3.866015) "></line>
+            </g>
+        </g>
+    </g>
+</svg>

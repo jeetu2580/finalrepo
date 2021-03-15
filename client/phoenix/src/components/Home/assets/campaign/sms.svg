@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="47px" viewBox="0 0 60 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button/campaign/sms</title>
+    <g id="button/campaign/sms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#D9AF75" x="0" y="0" width="59.8499995" height="47.2499996" rx="5"></rect>
+        <g id="Group" transform="translate(15.000000, 12.000000)" fill-rule="nonzero">
+            <g id="ic_textsms_48px">
+                <path d="M27.4137931,1 C27.8559648,1 28.2575873,1.1705733 28.5477042,1.45101963 C28.8253459,1.71940656 29,2.08939858 29,2.5 L29,2.5 L29,17.5 C29,17.9106014 28.8253459,18.2805934 28.5477042,18.5489804 C28.2575873,18.8294267 27.8559648,19 27.4137931,19 L27.4137931,19 L7.99723105,19 L1.00101919,23.226878 L1.01293103,2.5 C1.01293103,2.08825772 1.18533244,1.71666517 1.46230809,1.4475766 C1.74908134,1.16896942 2.1466372,1 2.5862069,1 L2.5862069,1 Z" id="Path" stroke="#FFFFFF" stroke-width="2"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="6.20689655" y="8" width="4.13793103" height="4"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="13.4482759" y="8" width="4.13793103" height="4"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="20.6896552" y="8" width="4.13793103" height="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

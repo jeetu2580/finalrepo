@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/check</title>
+    <g id="icons/check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check">
+            <circle id="Oval" stroke="#115151" fill="#57B8B8" cx="20.7999988" cy="20.7999988" r="20.2999988"></circle>
+            <text id="✓" font-family="LucidaGrande, Lucida Grande" font-size="32.799998" font-weight="normal" fill="#FFFFFF">
+                <tspan x="7.99999952" y="33.5999999">✓</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

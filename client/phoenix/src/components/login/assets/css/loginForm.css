@@ -1,0 +1,170 @@
+.rs-flex-box-grid-item-12{
+  background: white !important;
+  width: 30% !important;
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px #a5a8a6;
+}
+.rs-panel-bordered {
+  border: none !important;
+
+}
+
+.rs-content
+{
+
+ max-height: 1050px;
+}
+
+.signupcontainer{
+  height: 640px !important;
+}
+
+.newfields{
+  border: none;
+  border-bottom: 1px solid #575757;
+  border-radius: 0px !important;
+  padding: 3px;
+  
+}
+#password
+{
+  width: 89% !important;
+}
+
+.rs-btn-toolbar{
+  text-align: center;
+ 
+}
+.query{
+  text-align: center;
+
+font-size: 11px;
+width: 100%px;
+margin-top:30px;
+}
+
+.password button{
+  text-align: right;
+  padding-left: 56%;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+.rs-form-group{
+  margin-bottom: 30px !important;
+  
+}
+.Signup
+{
+  display: inline;
+  padding: 0px;
+  font-size: 12px;
+  padding-bottom: 1px;
+}
+.loginbtn
+{
+  width: 150px;
+}
+.eye
+{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.backtologin button{
+   margin-left: 30%;
+   margin-bottom: 20px;
+   font-size: 11px;
+}
+
+@media only screen and (max-width: 780px) {
+  .rs-flex-box-grid-item-12{
+    width: 80% !important;
+  }
+
+  #password
+{
+  width: 100% !important;
+}
+}
+
+.required
+{
+  color: red;
+}
+
+.instructions{
+  font-size: 11px;
+  display: block;
+  margin-top: 10px;
+}
+
+.disclaimer{
+  font-size: 11px;
+  margin-top: 0px;
+  margin-left: -10px;
+}
+
+.log-in {
+  height: 27px;
+  width: 70px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+
+.forgot-password {
+  height: 27px;
+  width: 269px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.enter-a-valid-email {
+  height: 18px;
+  width: 190px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.back-to-log-in {
+  height: 18px;
+  width: 85px;
+  color: #1A70B2;
+  font-family: Nunito;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+
+.sign-up {
+  height: 27px;
+  width: 98px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

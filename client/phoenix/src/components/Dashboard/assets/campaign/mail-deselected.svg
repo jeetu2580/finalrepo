@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="47px" viewBox="0 0 60 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button/campaign/mail-deselected</title>
+    <g id="button/campaign/mail-deselected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mail">
+            <rect id="Rectangle" fill="#CFCFCF" x="0" y="0" width="59.8499995" height="47.2499996" rx="5"></rect>
+            <g id="mail-plain" transform="translate(15.000000, 13.000000)">
+                <path d="M26.7398578,21.5068964 L2.58772818,21.5068964 C1.16102737,21.5068964 0,20.3935009 0,19.0253314 L0,2.48156497 C0,1.11339548 1.16102737,1.42108547e-14 2.58772818,1.42108547e-14 L26.7398578,1.42108547e-14 C28.1665586,1.42108547e-14 29.327586,1.11339548 29.327586,2.48156497 L29.327586,19.0253314 C29.327586,20.3935009 28.1665586,21.5068964 26.7398578,21.5068964 L26.7398578,21.5068964 Z M2.58772818,1.65437665 C2.11244877,1.65437665 1.72515212,2.0257842 1.72515212,2.48156497 L1.72515212,19.0253314 C1.72515212,19.4811122 2.11244877,19.8525197 2.58772818,19.8525197 L26.7398578,19.8525197 C27.2151372,19.8525197 27.6024339,19.4811122 27.6024339,19.0253314 L27.6024339,2.48156497 C27.6024339,2.0257842 27.2151372,1.65437665 26.7398578,1.65437665 L2.58772818,1.65437665 L2.58772818,1.65437665 Z" id="Fill-4" fill="#FFFFFF"></path>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.25999999" fill="#FFFFFF" x="19.5299999" y="4.40999997" width="4.60551721" height="5.66999996" rx="1.25999999"></rect>
+                <line x1="5.53965513" y1="7.24499995" x2="14.663793" y2="7.24499995" id="Line-2" stroke="#FFFFFF" stroke-width="1.25999999" stroke-linecap="square"></line>
+                <line x1="5.53965513" y1="11.0249999" x2="14.663793" y2="11.0249999" id="Line-2" stroke="#FFFFFF" stroke-width="1.25999999" stroke-linecap="square"></line>
+                <line x1="5.53965513" y1="14.8049999" x2="14.663793" y2="14.8049999" id="Line-2" stroke="#FFFFFF" stroke-width="1.25999999" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

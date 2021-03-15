@@ -1,0 +1,176 @@
+.createEmail
+{
+    background: #ffffff !important;
+    margin-left: 30px;
+    
+}
+
+.CreateEmailnew
+{
+  background: #ffffff;
+}
+
+.createCampMain {
+  margin-top: 15px;
+}
+.steps {
+    height: 24px;
+    width: 1034px;
+  }
+  .progresssteps {
+    height: 24px;
+   
+    color: #1A70B2;
+  font-family: Nunito;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  }
+  .button{
+margin-top: 40px;
+
+  }
+  .step1{
+    margin-top: 40px; 
+    height: 27px;
+  
+  color: #373737;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px; 
+  }
+.text{
+
+    height: 20px;
+  width: 853px;
+  color: #373737;
+  font-family: Nunito;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px; 
+}
+
+
+.colorchanger {
+  background: #efefef !important;
+}
+
+
+.rs-steps-item-title{
+  color: #1A70B2;
+}
+
+.ContainerEmailCreate
+{
+  border-top: 1px solid #d9d9d9;
+}
+
+.EmailType
+{
+  border: none;
+  border-bottom: 1px solid #575757;
+  padding: 2px;
+  width: 40%;
+  outline:0px;
+}
+
+.rs-row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+   
+}
+
+
+.SideNavPanel .rs-panel-heading{
+  border-bottom: 1px solid #d9d9d9;
+ 
+  background: #efefef;
+
+  
+}
+.SideNavPanel .rs-panel{
+border-radius: 0px;
+
+  
+}
+
+.NoBorder .rs-panel-heading{
+
+  border-bottom: 0px solid #d9d9d9;
+  font-weight: 100;
+}
+
+.boldText{
+  font-weight: 600;
+}
+.smallfontSize{
+  font-size: 12px;
+}
+
+.rs-sidebar{
+
+  flex: 0 0 23% !important; 
+  width: 23% !important;
+}
+
+
+
+/* Start Image template CSS */
+
+input[type="radio"][id^="myCheckbox"] {
+  display: none;
+}
+
+.TemplateList label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.TemplateList label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: 30px;
+  left: 260px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+  z-index: 1;
+}
+
+.TemplateList label img {
+  
+  width: 250px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+}
+/* End Image template CSS */

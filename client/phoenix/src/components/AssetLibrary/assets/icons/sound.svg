@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/sound</title>
+    <g id="icons/sound" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sound">
+            <path d="M19.2620833,16.0967882 C20.2109654,15.108393 20.7440436,13.7678273 20.7440436,12.3700087 C20.7440436,10.9721901 20.2109654,9.63162438 19.2620833,8.64322917" id="Path" stroke="#57B8B8" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.125,19.078125 C23.8330029,17.2989692 24.79255,14.8859077 24.79255,12.3697917 C24.79255,9.8536756 23.8330029,7.44061417 22.125,5.66145833" id="Path" stroke="#57B8B8" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16.875,24.5225694 L7.70833333,17.578125 L2.29166667,17.578125 C1.14107344,17.578125 0.208333333,16.6065207 0.208333333,15.4079861 L0.208333333,9.33159722 C0.208333333,8.13306261 1.14107344,7.16145833 2.29166667,7.16145833 L7.70833333,7.16145833 L16.875,0.217013889 L16.875,24.5225694 Z" id="Path" fill="#57B8B8"></path>
+        </g>
+    </g>
+</svg>

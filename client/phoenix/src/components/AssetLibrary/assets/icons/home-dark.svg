@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="20px" viewBox="0 0 23 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/home-dark</title>
+    <g id="icons/home-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0-icons/home-dark">
+            <path d="M11.5,4.42230184 L3.17241379,10.5077775 L3.17241379,19.082766 C3.17241379,19.5410726 3.60261233,19.9126036 4.13328912,19.9126036 L8.93766578,19.9126036 L8.93766578,14.933578 L14.0623342,14.933578 L14.0623342,19.9126036 L18.8667109,19.9126036 C19.3973877,19.9126036 19.8275862,19.5410726 19.8275862,19.082766 L19.8275862,10.5077775 L11.5,4.42230184 Z" id="Path" fill="#525252"></path>
+            <line x1="11.5" y1="0.349865652" x2="22.6034483" y2="8.74664129" id="Line-5" stroke="#525252" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="0.396551724" y1="0.349865652" x2="11.5" y2="8.74664129" id="Line-5" stroke="#525252" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(5.948276, 4.548253) scale(-1, 1) translate(-5.948276, -4.548253) "></line>
+        </g>
+    </g>
+</svg>

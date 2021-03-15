@@ -1,0 +1,47 @@
+.disclaimerCam{
+    font-size: 12px;
+}
+.selectAcamp{
+    margin-top: 40px;
+}
+.selectAcamp td
+{
+    padding: 15px; 
+    
+}
+
+.center{
+    text-align: center;
+}
+.active
+{
+    background: #59ADF0;
+}
+.inactive
+{
+    background: #CFCFCF;
+}
+.campaignSelect{
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+.chosecamp{
+    margin: 30px;
+}
+
+.Campnameinput
+{
+    border: none !important;
+    border-bottom: 1px solid #DCDCDC !important;
+    border-radius: 0px;
+    width: 360px !important;
+    
+}
+
+.middleDiv{
+    border-left: 2px solid #DCDCDC;
+    height: 410px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

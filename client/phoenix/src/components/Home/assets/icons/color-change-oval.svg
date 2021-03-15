@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/color-change-oval</title>
+    <defs>
+        <linearGradient x1="68.3117606%" y1="15.9932085%" x2="25.0488281%" y2="93.4375%" id="linearGradient-1">
+            <stop stop-color="#9D00FF" offset="0%"></stop>
+            <stop stop-color="#FF0505" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icons/color-change-oval" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="button/color-change-oval" stroke="#373737" fill="url(#linearGradient-1)" cx="9" cy="9" r="8.5"></circle>
+    </g>
+</svg>
