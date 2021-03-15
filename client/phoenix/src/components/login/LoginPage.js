@@ -73,7 +73,7 @@ handleSubmit() {
 // END Login Request ---> Form Submit
 
     render() {
-      if(this.props.isLoggedIn===true || this.props.isLoggedInCheck === true){
+      if(this.props.isLoggedIn===true ){
       return (<Redirect to="/home" />)
       } 
       else{

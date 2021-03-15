@@ -41,3 +41,53 @@
     margin-right: -10%;}
 
 }
+
+.sidepanelUL
+{
+  list-style-type: none;
+  
+padding-left: 0px;
+}
+.sidepanelUL li{
+  height: 60px;
+  margin-bottom: 5px;
+  width: 310px;
+  padding-left:15px;
+  padding: 20px;
+  border: 1px solid #979797;
+  background: #EEF8F8;
+  color: #373737;
+  line-height: 22px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.sidepanelUL a{
+text-decoration: none;
+}
+
+.sidepanelUL li .rs-icon{
+font-weight: bold;
+}
+
+
+.AccesType td
+{
+  
+  
+  width: 600px;
+  
+}
+
+.AccesType th {
+  text-align: left;
+  padding: 10px
+}
+
+.sideTD 
+{
+  padding: 10px;
+  padding-left: 15px;
+
+}

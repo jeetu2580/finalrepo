@@ -6,8 +6,7 @@ import Home from './components/Home/Home';
 import CreateACampaign from './components/CreateACampaign/CreateACampaign';
 import BillingInfo from './components/Billing/BillingInfo';
 import ChangePassword from './components/login/ChangePassword';
-import AccountInfo from './components/AccountInfo/AccountInfo';
-import AccountInfoEdit from './components/AccountInfo/AccountInfoEdit';
+import AccountManagement from './components/AccountInfo/AccountManagement';
 import AssetLibrary from './components/AssetLibrary/AssetLibrary';
 import CreateTemplates from './components/AssetLibrary/Templates/Email/CreateTemplates';
 import CreateEmail from './components/CreateACampaign/Email/CreateEmail';
@@ -29,7 +28,7 @@ import './App.css';
             };
  }
 
- componentDidMount()
+ async componentDidMount()
   {
     axios.get('http://localhost:4000/isLoggedIn', {withCredentials: true}).then((res)=>{
         
@@ -37,17 +36,14 @@ import './App.css';
   {
  
     this.setState({
-  
       isLoggedIn:true,
       users: true
-      
-    })
-
-    
+   })
   }
+
   if(res.data.status===202)
   {
-   this.setState({
+  this.setState({
   isLoggedIn: false
     })
   }
@@ -56,11 +52,9 @@ import './App.css';
   render() {
     
     if(this.state.isLoggedIn===true || this.props.isLoggedIn ===true ){
-
-      // alert(this.state.isLoggedIn)
+ 
       return (
         <Router>
-          
         <Switch>
         <Route path="/login">
        <LoginPage isLoggedInCheck={true}/>
@@ -68,15 +62,15 @@ import './App.css';
        {/* <ProtectedRoute path="/" component={Home} isLoggedIn={true}/> */}
        <ProtectedRoute path="/home" component={Home} isLoggedIn={true}/>
         <ProtectedRoute path="/createcampaign" component={CreateACampaign} isLoggedIn={true}/>
-        <ProtectedRoute path="/AccountInfo"  component={AccountInfo} isLoggedIn={true}/>
+        
+        <ProtectedRoute path="/AccountManagement"  component={AccountManagement} isLoggedIn={true}/>
         <ProtectedRoute path="/createemail"  component={CreateEmail} isLoggedIn={true} />
         <ProtectedRoute path="/billing"  component={BillingInfo} isLoggedIn={true}/>
-        <ProtectedRoute path="/AccountInfoEdit"  component={AccountInfoEdit} isLoggedIn={true}/>
         <ProtectedRoute path="/AssetLibrary/createtemplate"  exact component={CreateTemplates} isLoggedIn={true}/>
         <ProtectedRoute path="/AssetLibrary" component={AssetLibrary} isLoggedIn={true}/>
+
         
-        
-            
+           
   {/* 
             <EmailCreationMethod> */}
           </Switch>
@@ -85,15 +79,16 @@ import './App.css';
      }
      if(this.state.isLoggedIn==="Loading")
      {
-       
-       return(<>Loading...</>)
+      return(<>Loading...</>)
      }
     if(this.state.isLoggedIn === false)
     {
     
       return(<Router>
+        
         {/* <Container> */}
             {/* <Header><TopNav/></Header> </Container> */}
+          
              <Route path="/login"><LoginPage /></Route>
             <Redirect to= "/login" />
             <Route path="/signup"><SignUp /></Route>

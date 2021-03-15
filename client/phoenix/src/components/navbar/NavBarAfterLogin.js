@@ -99,7 +99,7 @@ class NavBarAfterLogin extends Component {
       <Nav pullRight>
       <Nav.Item ><Icon icon ="user-circle" size="2x" style={{fontSize: 20, marginRight: -14}}/></Nav.Item>
           <Dropdown title="Hi Stephanie">
-          <Link to="/accountinfo"><Dropdown.Item>Account Info</Dropdown.Item></Link>
+          <Link to="/AccountManagement"><Dropdown.Item>Account Information</Dropdown.Item></Link>
           <Dropdown.Item>Team</Dropdown.Item>
           <Dropdown.Item>Contact</Dropdown.Item>
           <Dropdown.Item onClick={this.signOut}>Log Out</Dropdown.Item>

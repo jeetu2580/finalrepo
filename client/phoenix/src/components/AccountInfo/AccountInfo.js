@@ -12,37 +12,7 @@ export default class AccountInfo extends Component {
       
         return (
             <>
-            <NavBarAfterLogin />
-<Container className="ContainerEmailCreate">
-<Sidebar>
-    <div className="SideNavPanel">
-<Panel header="Account Information" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="User Management" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Franchise Information" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Order History" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Notifications" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-</div>
-
-</Sidebar>
+            
 
 <Content>
 <Row style={{background: "#ffffff", padding: 20, paddingBottom:5, borderLeft:"1px solid #373737", borderTop: "none"}}>
@@ -95,7 +65,7 @@ Any City, Any State<br />
 
 </Content>
 
-</Container> 
+ 
            </>
         )
     }

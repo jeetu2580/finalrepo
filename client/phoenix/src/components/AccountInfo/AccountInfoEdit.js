@@ -1,23 +1,46 @@
 import React, { Component } from 'react'
-import {Row,Col,Button, Panel, Content, Container, Sidebar, Uploader, Input, FormGroup, Form, ButtonToolbar, SelectPicker, ControlLabel, FormControl} from 'rsuite';
+import {Row,Col,Button, Icon, Content, Container, Sidebar, Uploader, Input, FormGroup, Form, ButtonToolbar, SelectPicker, ControlLabel, FormControl} from 'rsuite';
 import NavBarAfterLogin from '../navbar/NavBarAfterLogin';
-import { NavLink} from "react-router-dom";
+import { Link} from "react-router-dom";
 import {data} from "./StateName";
 import profilepic from "./assets/image/profilepic.png";
 
 import "./assets/css/AccountInfo.css"; 
 function TextField(props) {
-  const { name, label, accepter, data, ...rest } = props;
+  const { name, label, accepter, data, readOnly, ...rest } = props;
   
   return (
     <FormGroup>
       <ControlLabel>{label} </ControlLabel>
-      <FormControl name={name} accepter={accepter} {...rest} data={data}/>
+      <FormControl name={name} accepter={accepter} {...rest} data={data} readOnly={readOnly}/>
     </FormGroup>
   );
 }
 
 export default class AccountInfoEdit extends Component {
+
+constructor(props)
+{
+  super(props);
+  this.state = {
+    active: ""
+  }
+  this.activeMakeClassSideNav = this.activeMakeClassSideNav.bind();
+}
+
+// Start Function to change the class active in sidebar navigation
+activeMakeClassSideNav  = (e) =>
+{
+const type = e.currentTarget.getAttribute("data-id");
+this.setState({
+  active: type
+})
+}
+
+
+
+
+// End Function to change the class active in sidebar navigation
     render() {
      
 
@@ -27,30 +50,13 @@ export default class AccountInfoEdit extends Component {
 <Container className="ContainerEmailCreate">
 <Sidebar>
     <div className="SideNavPanel">
-<Panel header="Account Information" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="User Management" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Franchise Information" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Order History" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
-
-  <Panel header="Notifications" collapsible>
-<Button appearance="link" title=">Holiday Templates">Holiday Templates</Button><br />
-<Button appearance="link" title="Christmas Templates">Christmas Templates</Button>
-  </Panel>
+<ul className="sidepanelUL">
+<Link to="/AccountInfoEdit" title="Account Information" data-id="accountinfo" onClick={this.activeMakeClassSideNav}><li>Account Information &nbsp;{this.state.active === "accountinfo" ? <><Icon icon="angle-down"/></> : <><Icon icon="angle-right"/></>}</li></Link>
+<Link to="/AccountInfoEdit" data-id="UserManagement" onClick={this.activeMakeClassSideNav} title="User Management"><li>User Management &nbsp;{this.state.active === "UserManagement" ? <><Icon icon="angle-down"/></> : <><Icon icon="angle-right"/></>}</li></Link>
+<Link to="/AccountInfoEdit"  data-id="FranchiseInfo" onClick={this.activeMakeClassSideNav} title="Franchise Information"><li>Franchise Information &nbsp;{this.state.active === "FranchiseInfo" ? <><Icon icon="angle-down"/></> : <><Icon icon="angle-right"/></>}</li></Link>
+<Link to="/AccountInfoEdit" title="Order History" data-id="OrderHistory" onClick={this.activeMakeClassSideNav}><li>Order History &nbsp;{this.state.active === "OrderHistory" ? <><Icon icon="angle-down"/></> : <><Icon icon="angle-right"/></>}</li></Link>
+<Link to="/AccountInfoEdit" title="Notifications" data-id="Notifications" onClick={this.activeMakeClassSideNav}><li>Notifications &nbsp;{this.state.active === "Notifications" ? <><Icon icon="angle-down"/></> : <><Icon icon="angle-right"/></>}</li></Link>
+</ul>
 </div>
 
 </Sidebar>
@@ -62,16 +68,16 @@ export default class AccountInfoEdit extends Component {
 <Col md={20} sm={20}>
 <h5>Account Information<br /><br /></h5>
 
-<NavLink to="/AccountInfo"><Button style={{padding:0}} appearance="link">Cancel<br/><br/></Button></NavLink>
+<Link to="/AccountInfo"><Button style={{padding:0}} appearance="link">Cancel<br/><br/></Button></Link>
 <Row>
     <Col md={12} sm={24} className='AccInfoEdit'>
     <Form>
 <TextField name="username" label="Account Name" accepter={Input}/>
 
-<TextField name="accountID" label="Account ID" accepter={Input}/>
+<TextField name="accountID" label="Account ID" accepter={Input} readOnly="readOnly"/>
 
 <TextField name="password" label="Password" type="password" accepter={Input} autoComplete="off"/>
-<TextField name="email" label="Email" accepter={Input} type="email"/>
+<TextField name="email" label="Email" accepter={Input} type="email"  readOnly="readOnly"/>
 <TextField name="phoneNo" label="Phone Number" accepter={Input}/>
 <TextField name="companyname" label="Company Name" accepter={Input}/>
 <TextField name="city" label="City" accepter={Input}/>
@@ -101,8 +107,8 @@ export default class AccountInfoEdit extends Component {
     <Row>
 <Col md={24} sm={24}>
 <ButtonToolbar>
-<NavLink to="/AccountInfo" title="Save">
-<Button className="AccUpdateButton" >Save Updates</Button></NavLink>
+<Link to="/AccountInfo" title="Save">
+<Button className="AccUpdateButton" >Save Updates</Button></Link>
 </ButtonToolbar>
 </Col>
     </Row>
